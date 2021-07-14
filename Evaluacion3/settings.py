@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'Evaluacion3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bd_eva3',
-        'USER': 'duoc',
+        'NAME': 'ejemplo',
+        'USER': 'Django',
         'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '3306',
@@ -123,7 +123,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
